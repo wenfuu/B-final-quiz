@@ -30,6 +30,8 @@ public class GroupService {
         return groupRepository.findAll();
     }
 
+
+    //todo: need to initialize group list
     public List<Group> randomlyAllocated() {
         List<Group> groupList = groupRepository.findAll();
         List<Trainee> traineeList = traineeRepository.findAll();
